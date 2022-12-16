@@ -1,0 +1,206 @@
+.user-item{
+    background: rgba(37, 37, 37, 0.5);
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.user-item img {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    object-fit: cover
+}
+
+.users-title{
+    font-size: 2.5vw;
+    text-decoration: underline;
+}
+
+.users-item-name-section{
+    font-family: "Trebuchet MS";
+    background: white;
+    padding-left: 1rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    height: 50px;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.users-item-info-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.users-item-info-section p{
+    width: 50%;
+    margin: 0;
+    padding: .5rem;
+    font-size: 1vw;
+}
+
+.users-item-info-section textarea {
+    width: 50%;
+    border-radius: 20px;
+    padding: .5rem;
+    font-size: 1vw;
+}
+
+.users-item-info-section span{
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-right: .2rem;
+}
+
+.users-item-name-section span{
+    margin: 0.2rem;
+    font-weight: 600;
+    background: white;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.users-item-buttons-section{
+    display: flex;
+    justify-content: end;
+    padding: 0 1rem;
+    margin-top: .5rem;
+}
+
+.users-item-buttons-section button{
+    margin: 0 .5rem;
+    padding: .2rem .5rem;
+    /*background: rgba(100, 100, 100, 0.5);*/
+    border-radius: 10px;
+    transition: all ease 250ms;
+    color: #333333;
+    opacity: 0;
+    font-size: 1vw;
+}
+
+.edite-button{
+    background: rgba(192, 192, 61, 0.9);
+}
+
+.delete-button{
+    background: rgba(236, 52, 52, 0.9);
+}
+
+
+
+.user-item:hover .users-item-buttons-section button {
+    opacity: 0.5;
+}
+
+.users-item-buttons-section button:hover{
+    opacity: 1!important;
+}
+
+.users-item-name-section input {
+    outline: none;
+    width: 15%;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 0.2rem;
+}
+
+.users-item-name-section input::placeholder {
+    font-weight: 500;
+}
+
+.add-user-section{
+    background: rgba(37, 37, 37, 0.5);
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.add-user-section button {
+    padding: .5rem 1rem;
+    /*background: rgba(100, 100, 100, 0.5);*/
+    border-radius: 10px;
+    transition: all ease 250ms;
+    color: #333333;
+    background: rgba(45, 164, 45, 0.9);
+    height: 100%;
+    opacity: 0;
+    font-size: 1vw;
+}
+
+.add-user-section input::placeholder {
+    font-weight: 500;
+}
+
+.add-user-section input {
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 20px;
+    height: 100%;
+    font-size: 1.1vw;
+}
+
+.add-user-section textarea {
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 20px;
+    width: 30%;
+    font-size: 1.1vw;
+}
+
+.add-user-section h2 {
+    font-size: 1.5vw;
+}
+
+.add-user-section:hover  button{
+    opacity: 0.5;
+}
+
+.add-user-section button:hover{
+    opacity: 1 !important;
+}
+
+.search-users{
+    background: rgba(37, 37, 37, 0.5);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.search-users label {
+    font-size: 1.2vw;
+}
+
+#search{
+    padding: .5rem;
+    outline: none;
+    margin-left: 1rem;
+    border-radius: 20px;
+}
+
+.searched-users-list{
+
+
+    /*margin: 1rem 0;*/
+    font-size: 1.2vw;
+}
+
+.searched-users-list img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 1rem;
+    object-fit: cover;
+}
+
+.searched-users-item{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,14 @@
+.uploader {
+    cursor: pointer;
+}
+
+.uploader img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.uploader input {
+    display: none;
+}
